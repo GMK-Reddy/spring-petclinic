@@ -1,4 +1,5 @@
-# The Octocat class tells you about different breeds of Octocat
+# The Octocat class tells you about different breeds of Octocat 
+#added file
 class Octocat
   def initialize(name, *breeds)
     # Instance variables
