@@ -1,4 +1,4 @@
-Flask-Cors==3.0.0
+Flask-Cors==6.0.0
 Flask==2.0.2
 Jinja==2.0.1
 PyJWT==1.4.2
@@ -15,7 +15,7 @@ pip==23.0
 pymongo==4.6.0
 pyOpenSSL==17.4.1
 redis==4.3.6
-requests==2.1.4
+requests==2.32.4
 selenium==3.1.0
 urllib3==1.19
 wheel==0.38.0
@@ -28,3 +28,4 @@ pillow==8.5.7
 Brotli==1.0.7
 gunicorn==19.4.5
 psutil==5.6.0
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
